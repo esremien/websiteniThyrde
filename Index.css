@@ -1,0 +1,214 @@
+.home-page-child,
+.home-page-item {
+  width: 1487px;
+  height: 1484px;
+  position: relative;
+  filter: blur(50px);
+  border-radius: 50%;
+  background: radial-gradient(50% 50%at 50% 50%, #95acff, #f1f2ff);
+  display: none;
+  max-width: 100%;
+  z-index: 0;
+}
+.home-page-item {
+  z-index: 1;
+}
+.home-page-inner {
+  width: 1599px;
+  height: 1049px;
+  position: absolute;
+  margin: 0 !important;
+  bottom: -514px;
+  left: -80px;
+  border-radius: 50%;
+  background: radial-gradient(50% 50%at 50% 50%, #471e60, #1c1c1c);
+}
+.ollcf {
+  position: relative;
+  display: inline-block;
+  min-width: 78px;
+  white-space: nowrap;
+}
+.about,
+.contact-us,
+.home,
+.strands {
+  position: relative;
+  display: inline-block;
+  min-width: 35px;
+}
+.about,
+.contact-us,
+.strands {
+  min-width: 37px;
+}
+.contact-us,
+.strands {
+  min-width: 47px;
+}
+.contact-us {
+  min-width: 66px;
+  white-space: nowrap;
+}
+.frame-wrapper,
+.home-parent {
+  display: flex;
+  align-items: flex-start;
+}
+.home-parent {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.frame-wrapper {
+  width: 545px;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 6px 0 0;
+  box-sizing: border-box;
+  max-width: 100%;
+  text-align: center;
+  font-size: var(--font-size-xs);
+}
+.ollcf-parent,
+.white-line-child {
+  align-self: stretch;
+  max-width: 100%;
+}
+.ollcf-parent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.white-line-child {
+  height: 5px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.white-line {
+  height: 20px;
+  width: 116px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 10px;
+  box-sizing: border-box;
+}
+.frame-parent,
+.white-line-wrapper {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.white-line-wrapper {
+  width: 868px;
+  flex-direction: row;
+  justify-content: center;
+  padding: 0 20px;
+  box-sizing: border-box;
+}
+.frame-parent {
+  width: 962px;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 2px;
+  text-align: left;
+  font-size: 24px;
+  color: var(--color-thistle);
+  font-family: var(--font-inter);
+}
+.our-lady-of {
+  margin: 0;
+  flex: 1;
+  position: relative;
+  font-size: inherit;
+  font-weight: 700;
+  font-family: inherit;
+  background: linear-gradient(180deg, #ab50e2, #351548);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  display: inline-block;
+  max-width: 100%;
+  z-index: 1;
+}
+.home-page,
+.our-lady-of-lourdes-college-fo-wrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  box-sizing: border-box;
+}
+.our-lady-of-lourdes-college-fo-wrapper {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 25px 0 24px;
+  max-width: 100%;
+  text-align: center;
+  font-size: 96px;
+  font-family: var(--font-inter);
+}
+.home-page {
+  width: 100%;
+  position: relative;
+  background-color: #1d1d1d;
+  overflow: hidden;
+  flex-direction: column;
+  padding: 32px 46px 396px;
+  gap: 313px;
+  line-height: normal;
+  letter-spacing: normal;
+}
+@media screen and (max-width: 975px) {
+  .home-parent {
+    display: none;
+  }
+  .frame-wrapper {
+    width: 0;
+  }
+}
+@media screen and (max-width: 950px) {
+  .our-lady-of {
+    font-size: 48px;
+  }
+  .home-page {
+    gap: 156px;
+    padding-left: var(--padding-4xl);
+    padding-right: var(--padding-4xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .our-lady-of {
+    font-size: 29px;
+  }
+  .home-page {
+    gap: 78px;
+  }
+}
+
+body {
+    margin: 0;
+    line-height: normal;
+  }
+  
+  :root {
+    /* fonts */
+    --font-inter: Inter;
+  
+    /* font sizes */
+    --font-size-xs: 12px;
+  
+    /* Colors */
+    --color-thistle: #f6d1ff;
+  
+    /* Gaps */
+    --gap-xl: 20px;
+  
+    /* Paddings */
+    --padding-4xl: 23px;
+  }

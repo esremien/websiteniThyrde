@@ -1,0 +1,429 @@
+.contact-page-child {
+    width: 1721px;
+    height: 1160px;
+    position: relative;
+    filter: blur(50px);
+    border-radius: 50%;
+    background: radial-gradient(50% 50%at 50% 50%, #95acff, #f1f2ff);
+    display: none;
+    max-width: 100%;
+  }
+  .frame-child {
+    width: 1297px;
+    height: 1467px;
+    position: absolute;
+    margin: 0 !important;
+    top: -632px;
+    right: -1311px;
+    border-radius: 50%;
+    background: radial-gradient(50% 50%at 50% 50%, #471e60, #1c1c1c);
+    transform: rotate(90deg);
+    transform-origin: 0 0;
+  }
+  .about,
+  .contact-us,
+  .home,
+  .ollcf,
+  .strands {
+    position: relative;
+    display: inline-block;
+    z-index: 1;
+  }
+  .ollcf {
+    min-width: 78px;
+    white-space: nowrap;
+  }
+  .about,
+  .contact-us,
+  .home,
+  .strands {
+    min-width: 35px;
+  }
+  .about,
+  .contact-us,
+  .strands {
+    min-width: 37px;
+  }
+  .contact-us,
+  .strands {
+    min-width: 47px;
+  }
+  .contact-us {
+    min-width: 66px;
+    white-space: nowrap;
+  }
+  .home-link-container,
+  .home-parent {
+    display: flex;
+    align-items: flex-start;
+  }
+  .home-parent {
+    align-self: stretch;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: var(--gap-xl);
+  }
+  .home-link-container {
+    width: 545px;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 5px 0 0;
+    box-sizing: border-box;
+    max-width: 100%;
+    text-align: center;
+    font-size: var(--font-size-xs);
+  }
+  .navigation-items,
+  .navigation-links {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    max-width: 100%;
+  }
+  .navigation-links {
+    flex: 1;
+    justify-content: space-between;
+    gap: var(--gap-xl);
+  }
+  .navigation-items {
+    align-self: stretch;
+    justify-content: flex-end;
+    padding: 0 25px 0 0;
+    box-sizing: border-box;
+  }
+  .white-line-child {
+    align-self: stretch;
+    height: 5px;
+    position: relative;
+    max-width: 100%;
+    overflow: hidden;
+    flex-shrink: 0;
+  }
+  .white-line {
+    width: 116px;
+    height: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 10px;
+    box-sizing: border-box;
+    z-index: 1;
+  }
+  .navigation-container,
+  .top-navigation {
+    display: flex;
+    justify-content: flex-start;
+    max-width: 100%;
+  }
+  .navigation-container {
+    width: 1022px;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 1px;
+  }
+  .top-navigation {
+    align-self: stretch;
+    flex-direction: row;
+    align-items: flex-start;
+  }
+  .contact-information {
+    position: relative;
+    font-weight: 900;
+    background: linear-gradient(180deg, #ab50e2, #351548);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    z-index: 1;
+  }
+  .contact-information-wrapper {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-end;
+    padding: 0 0 13px;
+    text-align: left;
+    font-size: var(--font-size-29xl);
+  }
+  .contact-number {
+    margin: 0;
+    flex: 1;
+    position: relative;
+    font-size: inherit;
+    font-weight: 800;
+    font-family: inherit;
+    background: linear-gradient(180deg, #ab50e2, #351548);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: inline-block;
+    max-width: 100%;
+    z-index: 1;
+  }
+  .contact-number-container {
+    width: 432px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-end;
+    padding: 0 var(--padding-5xs);
+    box-sizing: border-box;
+    max-width: 100%;
+  }
+  .b {
+    position: relative;
+    font-size: var(--font-size-29xl);
+    z-index: 1;
+  }
+  .contact-number-container-parent {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-start;
+    gap: var(--gap-xl);
+    max-width: 100%;
+  }
+  .contact-details {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-end;
+    padding: 0 16px;
+    box-sizing: border-box;
+    max-width: 100%;
+  }
+  .email-address {
+    margin: 0;
+    flex: 1;
+    position: relative;
+    font-size: inherit;
+    font-weight: 800;
+    font-family: inherit;
+    background: linear-gradient(180deg, #ab50e2, #351548);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: inline-block;
+    max-width: 100%;
+    z-index: 1;
+  }
+  .email-address-container {
+    width: 446px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-end;
+    padding: 0 15px;
+    box-sizing: border-box;
+    max-width: 100%;
+  }
+  .informationollcfgmailcom {
+    margin: 0;
+    position: relative;
+    font-size: var(--font-size-29xl);
+    font-weight: 700;
+    font-family: inherit;
+    white-space: nowrap;
+    z-index: 1;
+  }
+  .email-address-container-parent,
+  .frame-parent {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    max-width: 100%;
+  }
+  .email-address-container-parent {
+    align-items: flex-end;
+    gap: var(--gap-xl);
+  }
+  .frame-parent {
+    width: 692px;
+    align-items: flex-start;
+    gap: 58px;
+    text-align: right;
+    font-size: var(--font-size-13xl);
+  }
+  .ellipse-parent,
+  .website {
+    position: relative;
+    max-width: 100%;
+  }
+  .ellipse-parent {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-start;
+    padding: 32px 72px 58px 46px;
+    box-sizing: border-box;
+    gap: 104px;
+    text-align: left;
+    font-size: 24px;
+    color: var(--color-thistle);
+    font-family: var(--font-inter);
+  }
+  .website {
+    margin: 0;
+    flex: 1;
+    font-size: inherit;
+    font-weight: 800;
+    font-family: inherit;
+    background: linear-gradient(180deg, #ab50e2, #351548);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: inline-block;
+    z-index: 1;
+  }
+  .website-link {
+    width: 432.5px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-end;
+    padding: 0 var(--padding-5xs);
+    box-sizing: border-box;
+    max-width: 100%;
+  }
+  .httpsollcfeduph {
+    margin: 0;
+    align-self: stretch;
+    position: relative;
+    font-size: var(--font-size-29xl);
+    font-weight: 700;
+    font-family: inherit;
+  }
+  .website-container {
+    width: 483px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-start;
+    gap: var(--gap-xl);
+    max-width: 100%;
+  }
+  .website-container-wrapper {
+    width: 657.5px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 0 20px;
+    box-sizing: border-box;
+    max-width: 100%;
+  }
+  .contact-page {
+    width: 100%;
+    position: relative;
+    background-color: #1d1d1d;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-start;
+    padding: 0 0 242px;
+    box-sizing: border-box;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: right;
+    font-size: var(--font-size-13xl);
+    color: var(--color-thistle);
+    font-family: var(--font-inter);
+  }
+  @media screen and (max-width: 1025px) {
+    .home-parent {
+      display: none;
+    }
+    .home-link-container {
+      width: 0;
+    }
+  }
+  @media screen and (max-width: 975px) {
+    .contact-information {
+      font-size: var(--font-size-19xl);
+    }
+    .contact-number {
+      font-size: var(--font-size-7xl);
+    }
+    .b {
+      font-size: var(--font-size-19xl);
+    }
+    .email-address {
+      font-size: var(--font-size-7xl);
+    }
+    .informationollcfgmailcom {
+      font-size: var(--font-size-19xl);
+    }
+    .website {
+      font-size: var(--font-size-7xl);
+    }
+    .httpsollcfeduph {
+      font-size: var(--font-size-19xl);
+    }
+  }
+  @media screen and (max-width: 725px) {
+    .frame-parent {
+      gap: 29px;
+    }
+    .ellipse-parent {
+      gap: 52px;
+      padding: 21px 36px 38px 23px;
+      box-sizing: border-box;
+    }
+  }
+  @media screen and (max-width: 450px) {
+    .ollcf {
+      font-size: var(--font-size-lgi);
+    }
+    .contact-information {
+      font-size: var(--font-size-10xl);
+    }
+    .contact-number {
+      font-size: var(--font-size-lgi);
+    }
+    .b {
+      font-size: var(--font-size-10xl);
+    }
+    .email-address {
+      font-size: var(--font-size-lgi);
+    }
+    .informationollcfgmailcom {
+      font-size: var(--font-size-10xl);
+    }
+    .ellipse-parent {
+      gap: 26px;
+    }
+    .website {
+      font-size: var(--font-size-lgi);
+    }
+    .httpsollcfeduph {
+      font-size: var(--font-size-10xl);
+    }
+  }
+
+  body {
+    margin: 0;
+    line-height: normal;
+  }
+  
+  :root {
+    /* fonts */
+    --font-inter: Inter;
+  
+    /* font sizes */
+    --font-size-29xl: 48px;
+    --font-size-10xl: 29px;
+    --font-size-19xl: 38px;
+    --font-size-13xl: 32px;
+    --font-size-lgi: 19px;
+    --font-size-7xl: 26px;
+    --font-size-xs: 12px;
+  
+    /* Colors */
+    --color-thistle: #f6d1ff;
+  
+    /* Gaps */
+    --gap-xl: 20px;
+  
+    /* Paddings */
+    --padding-5xs: 8px;
+  }
